@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "poti_rv09a")(type "KiCad")(uri "${KIPRJMOD}/poti.pretty")(options "")(descr ""))
+)

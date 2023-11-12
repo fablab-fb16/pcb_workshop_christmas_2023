@@ -48,8 +48,17 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "starved_thermal|137160000|105410000|8397d303-f9e0-4361-9b8d-e4aec9bd49de|6462f5f7-ddfb-4e03-82ed-d2d3606f95c5|B.Cu",
+        "starved_thermal|167640000|97790000|8397d303-f9e0-4361-9b8d-e4aec9bd49de|61ab2874-ece1-41a2-8046-e34ecbc54994|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -165,8 +174,21 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.6
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
