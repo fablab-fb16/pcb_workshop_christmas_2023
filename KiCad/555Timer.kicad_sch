@@ -747,10 +747,10 @@
           (reference "RV1") (unit 1)
         )
         (path "/3a264a14-3d89-40c1-a547-b76d7ed1f045/dd786dbd-2c93-405b-9b24-ff8effce1a4d"
-          (reference "RV2") (unit 1)
+          (reference "RV1") (unit 1)
         )
         (path "/3a264a14-3d89-40c1-a547-b76d7ed1f045/37a0974e-8a82-4a9d-a5a0-109cebe65ef8"
-          (reference "RV1") (unit 1)
+          (reference "RV2") (unit 1)
         )
       )
     )
