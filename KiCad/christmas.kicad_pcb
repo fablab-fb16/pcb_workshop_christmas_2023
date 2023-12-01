@@ -7373,7 +7373,7 @@
   (gr_text "OFF/ON" (at 144.78 133.35) (layer "F.SilkS") (tstamp 8d846e76-efa3-4c65-b023-99e7874893a6)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify bottom))
   )
-  (gr_text "Freq." (at 177.038 113.03) (layer "F.SilkS") (tstamp f8b12f48-c28c-4a4f-93d0-7d7c622d28a7)
+  (gr_text "Freq." (at 178.054 94.488) (layer "F.SilkS") (tstamp f8b12f48-c28c-4a4f-93d0-7d7c622d28a7)
     (effects (font (size 2 2.2) (thickness 0.5) bold) (justify bottom))
   )
 
