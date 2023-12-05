@@ -947,7 +947,7 @@
   (symbol (lib_id "Device:R") (at 198.12 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 028fd36b-4576-49cf-a0d5-3efc201b1d2c)
-    (property "Reference" "R7" (at 200.66 128.27 0)
+    (property "Reference" "R6" (at 200.66 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.4k" (at 200.66 130.81 0)
@@ -964,7 +964,7 @@
     (instances
       (project "christmas"
         (path "/3a264a14-3d89-40c1-a547-b76d7ed1f045"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1190,7 +1190,7 @@
   (symbol (lib_id "Device:R") (at 218.44 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3273e0e8-da69-409d-b0df-185ff226bf7e)
-    (property "Reference" "R9" (at 220.98 128.27 0)
+    (property "Reference" "R8" (at 220.98 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.4k" (at 220.98 130.81 0)
@@ -1207,7 +1207,7 @@
     (instances
       (project "christmas"
         (path "/3a264a14-3d89-40c1-a547-b76d7ed1f045"
-          (reference "R9") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1414,7 +1414,7 @@
   (symbol (lib_id "Device:R") (at 168.91 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d88dc95-2fd3-4be9-ab9d-a24a0e576c14)
-    (property "Reference" "R4" (at 171.45 128.27 0)
+    (property "Reference" "R3" (at 171.45 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.4k" (at 171.45 130.81 0)
@@ -1431,7 +1431,7 @@
     (instances
       (project "christmas"
         (path "/3a264a14-3d89-40c1-a547-b76d7ed1f045"
-          (reference "R4") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1440,7 +1440,7 @@
   (symbol (lib_id "Device:R") (at 179.07 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79b2e896-6951-46b6-a4ed-e61b413fb2c1)
-    (property "Reference" "R5" (at 181.61 128.27 0)
+    (property "Reference" "R4" (at 181.61 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.4k" (at 181.61 130.81 0)
@@ -1457,7 +1457,7 @@
     (instances
       (project "christmas"
         (path "/3a264a14-3d89-40c1-a547-b76d7ed1f045"
-          (reference "R5") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1761,7 +1761,7 @@
   (symbol (lib_id "Device:R") (at 158.75 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a72f85ec-2832-42fa-b9e0-f8ebd58fb8d6)
-    (property "Reference" "R3" (at 161.29 128.27 0)
+    (property "Reference" "R2" (at 161.29 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.4k" (at 161.29 130.81 0)
@@ -1778,7 +1778,7 @@
     (instances
       (project "christmas"
         (path "/3a264a14-3d89-40c1-a547-b76d7ed1f045"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1814,7 +1814,7 @@
   (symbol (lib_id "Device:R") (at 208.28 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa39c433-2c09-400e-8871-e4783f9104a7)
-    (property "Reference" "R8" (at 210.82 128.27 0)
+    (property "Reference" "R7" (at 210.82 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.4k" (at 210.82 130.81 0)
@@ -1831,7 +1831,7 @@
     (instances
       (project "christmas"
         (path "/3a264a14-3d89-40c1-a547-b76d7ed1f045"
-          (reference "R8") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1908,7 +1908,7 @@
   (symbol (lib_id "Device:R") (at 187.96 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7ffb45e-2369-4409-ad15-613c160978e6)
-    (property "Reference" "R6" (at 190.5 128.27 0)
+    (property "Reference" "R5" (at 190.5 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.4k" (at 190.5 130.81 0)
@@ -1925,7 +1925,7 @@
     (instances
       (project "christmas"
         (path "/3a264a14-3d89-40c1-a547-b76d7ed1f045"
-          (reference "R6") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
