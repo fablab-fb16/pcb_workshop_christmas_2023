@@ -8,7 +8,7 @@ Soldering workshop kindly sponsored by VDE Bezirksverein Kassel e. V.
 
 ## Quick Links
 
-- [Detailed Build Instructions](/documentation/Build%20Instructions.md)
+- [Detailed Build Instructions (EN)](/documentation/Build%20Instructions.md) / [Detaillierte Bauanleitung (DE)](/documentation/Build%20Instructions%20DE.md)
 - [Assembly List](/documentation/Assembly%20List.md)
 - [Usage Instructions](/documentation/Usage%20Instructions.md)
 - [Schematics](/documentation/schematics.md)

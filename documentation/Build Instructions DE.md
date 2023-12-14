@@ -1,167 +1,173 @@
-# Build Instructions (EN)
+# Bauanleitung (DE)
 
-This is a detailed guide with images. tl;dr -> [Assembly List](/documentation/Assembly%20List.md)
+Dies ist eine detaillierte Anleitung mit Bildern. tl;dr -> [Assembly List](/documentation/Assembly%20List.md)
 
-Deutsche Version: [Bauanleitung](/documentation/Build%20Instructions%20DE.md)
+English Version: [Build Instructions](/documentation/Build%20Instructions.md)
 
-## General Info
-- If you don't know how to solder, look at [How to solder](/documentation/How%20to%20Solder.md)
-- All components are placed on the side of the board, where their marking is. Soldering is done on the opposite side.
-- All components have a label e.g. "R1" or "D9" which tells you, where to put the component on the board.
-- Some components are directional -> Orientation matters for them. This is denoted with a red "Caution" tag, because it's important. Double-check orientation **before** soldering.
-- If you are not sure about something: Ask before soldering 😉
+## Allgemeine Infos
+- Wenn du noch nie gelötet hast, schau dir die Anleitung an (auf Englisch, mit Bildern): [How to solder](/documentation/How%20to%20Solder.md)
+- Alle Komponenten werden auf der Seite der Platine plaziert, auf der die zugehörige Markierung des Bauteils ist. Gelötet wird immer auf der anderen Seite der Platine.
+- Alle Bauteile haben eine Bezeichnung welche in der Anleitung genannt wird, z.B. "R1" oder "D9". Diese Bezeichnung ist auch auf der Platine aufgedruckt. Dort muss das jeweilige Bauteil platziert werden.
+- Manche Komponenten haben eine Orientierung -> Es ist wichtig, dass sie richtigherum eingebaut werden. Dies ist in der Anleitung in rot mit "Caution" gekennzeichnet. Einbaurichtung vor dem Löten nochmal prüfen. 😉
 - Have fun. 👩‍🏭👨‍🏭
 
-## Build the Christmas Tree Ball
-### Overview
+## Bau die Weihnachtsbaumkugel
+### Übersicht
 ![Overview](/documentation/images/instruction_images/000_overview.jpg)
 ![Front-Back](/documentation/images/instruction_images/001_front_back.jpg)
 
 
-### First Component - Diode: D9
+### Erstes Bauteil - Diode: D9
 ![Diode](/documentation/images/instruction_images/010_diode.jpg)
 
-Bend the legs of the Diode (U-shape)
+Biege die Beine der Diode (U-förmig)
 ![Diode Bent](/documentation/images/instruction_images/011_diode_bent.jpg)
 
-Place it on the board at position D9. Push it all the way down.
+Stecke sie auf die Platine an der Position D9 (s. Bild unten).
 > [!Caution]
-> For this part the orientation is important! Silver ring to the right.
+> Beachte die Einbaurichtung: Silberner Ring nach rechts, wie auf der Platine markiert.
 
 ![Diode on Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(1).png)
 
-Flip the board and solder the two connections.
+Stecke die Diode bis ganz auf die Platine. Drehe die Platine um und löte die beiden Kontakte.
 ![Diode Board Flipped](/documentation/images/instruction_images/012_diode_board_flipped.jpg)
 ![Diode Soldered](/documentation/images/instruction_images/013_diode_soldered.jpg)
 
-Cut the excess component legs above the solder joint.
+Schneide die Beine **oberhalb** der Lötstellen ab (nicht die Lötstelle abschneiden).
 ![Diode Legs cut](/documentation/images/instruction_images/014_diode_legs_cut.jpg)
 ![Diode Done](/documentation/images/instruction_images/015_diode_done.jpg)
 
-### Resistors: R1, R2, R3, R4, R5, R6, R7, R8
+Fertig mit dem ersten Bauteil.
+
+### Widerstände: R1, R2, R3, R4, R5, R6, R7, R8
 ![LED Resistors 8x 1.3k](/documentation/images/instruction_images/020_led_resistors.jpg)
-Identify them by Color Code: brown - orange - black - brown - brown (Value: 1.3k)
+Identifiziere die Widerstände an ihren Farbringen: braun - orange - schwarz - braun - braun (Wert: 1.3k)
 
-Bend the legs (U-shape)
+Biege die Beine (U-förmig), wie bei der Diode.
 
-Place on board (orientation doesn't matter).
+Stecke sie auf die Platine (diesmal ist die Einbaurichtung egal).
 ![LED Resistors Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(2).png)
 
-Solder, cut legs, repeat.
+Löten, Beine abschneiden, wiederholen bis alle Widerstände aufgelötet sind.
 
 ![LED Resistors Done](/documentation/images/instruction_images/021_led_resistors_done.jpg)
 
 
-### Resistors: R9, R10
+### Widerstände: R9, R10
 ![Resistors 2x 10k](/documentation/images/instruction_images/030_resistors_10k.jpg)
-Identify them by Color Code: brown - black - black - red - brown (Value: 10k)
+Identifiziere die Widerstände an ihren Farbringen: braun - schwarz - schwarz - rot - braun (Wert: 10k)
 
-Bend legs, place on board, solder, cut legs, repeat.
+Beine biegen, auf Platine stecken, löten, Beine abschneiden, wiederholen.
 ![Resistors Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(3).png)
 ![Resistors 2x 10k done](/documentation/images/instruction_images/031_resistors_10k_done.jpg)
 
-### Timers: U1, U3
+### Timer: U1, U3
 ![Timers Detail](/documentation/images/instruction_images/040_timer_detail.jpg)
 > [!Caution]
-> Orientation is important! Little notch to the top.
+> Beachte die Einbaurichtung! Kleine Einkerbung nach oben.
 
 ![Timers Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(4).png)
 ![Timers done](/documentation/images/instruction_images/041_timer_done.jpg)
 
-### Shift register: U2
+### Schieberegister: U2
 ![Shift register Detail](/documentation/images/instruction_images/050_shift_register_detail.jpg)
 > [!Caution]
-> Orientation is important! Little notch to the top.
+> Beachte die Einbaurichtung! Kleine Einkerbung nach oben.
 
 ![Shift register Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(5).png)
 ![Shift register done](/documentation/images/instruction_images/051_shift_register_done.jpg)
 
-### Capacitors: C1, C4, C5, C6, C7
+### Kondensatoren: C1, C4, C5, C6, C7
 ![Capacitors 100nF Detail](/documentation/images/instruction_images/060_capacitor_100n_detail.jpg)
-Identify them: They are the smaller ones with "104" printed on.  (Value: 100nF)
+
+> [!Caution]
+> Achtung, es gibt Verschiedene! Hier brauchst du die Kleineren mit dem Aufdruck "104" (Wert: 100nF).
 
 ![Capacitors 100nF Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(6).png)
 ![Capacitors 100nF done](/documentation/images/instruction_images/061_capacitor_100n_done.jpg)
 
 
-### Capacitors: C2, C3
+### Kondensatoren: C2, C3
 ![Capacitors 4.7uF Detail](/documentation/images/instruction_images/070_capacitor_475K_detail.jpg)
-Identify them: They are the larger ones with "475K" printed on. (Value: 4.7uF)
+
+> [!Caution]
+> Achtung, es gibt Verschiedene! Hier brauchst du die Größeren mit dem Aufdruck "475K" (Wert: 4.7uF).
 
 ![Capacitors 4.7uF Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(7).png)
 ![Capacitors 4.7uF done](/documentation/images/instruction_images/071_capacitor_475K_done.jpg)
 
 ### LEDs: D1, D2, D3, D4, D5, D6, D7, D8
 ![LEDs Detail](/documentation/images/instruction_images/080_leds_detail.jpg)
-Mix colors as you want.
+Mische die verschiedenen Farben, wie du magst.
 > [!Caution]
-> Orientation is important! Shorter leg into the hole with the squared pad. (see image)
+> Beachte die Einbaurichtung! Kurzes Bein in das Loch mit dem quadratischen Lötpad (s. Bild).
 
 ![LEDs Detail](/documentation/images/instruction_images/081_leds_orientation.jpg)
 ![LEDs Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(9).png)
 ![LEDs Done](/documentation/images/instruction_images/082_leds_done.jpg)
 
-### Jumpers: JP1, JP2, JP3, ON/OFF
+### Jumper: JP1, JP2, JP3, ON/OFF
 ![Jumpers Detail](/documentation/images/instruction_images/090_jumpers_detail.jpg)
-Cut them with the cutter to 4 pieces á 3 Pins (see image).
+Schneide sie mit dem Seitenschneider in 4 Stücke á 3 Pins (s. Bild).
 
 ![Jumpers Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(8).png)
 ![Jumpers Done](/documentation/images/instruction_images/091_jumpers_done.jpg)
 
 
-### Potentiometers: RV1, RV2
+### Potentiometer: RV1, RV2
 ![Potentiometers Detail](/documentation/images/instruction_images/100_poti_detail.jpg)
-They snap to the board; use gentle force to put them on. Solder all contacts, the large ones too.
+Die Potentiometer "klipsen" auf die Platine - das braucht etwas Kraft. Löte dann alle Kontakte, auch die großen.
 
 ![Potentiometers Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(10).png)
 ![Potentiometers Done](/documentation/images/instruction_images/101_poti_done.jpg)
 
-### Battery Connector: Battery_9V
+### Batterie-Anschluss: Battery_9V
 ![Battery Connector Detail](/documentation/images/instruction_images/110_battery_connector_detail.jpg)
 > [!Caution]
-> This is placed on the back side and soldered on the front side.
-> Orientation is important: Red wire to **+** , black wire to **-**
+> Dieses Teil gehört auf der Rückseite der Platine und wird auf der Vorderseite gelötet.
+> Beachte die Einbaurichtung: Rotes Kabel an **+** , Schwarzes Kabel an **-**
 
 ![Battery Connector Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.B.png)
 ![Battery Connector Done](/documentation/images/instruction_images/111_battery_connector_done.jpg)
 
 
-### Wire Connectors: J1, J2
+### Kabel Buchsen: J1, J2
 ![Wire Connectors Detail](/documentation/images/instruction_images/120_wire_connector_detail.jpg)
 > [!Caution]
-> This is placed on the back side and soldered on the front side.
-> Orientation is important! See images.
+> Dieses Teil gehört auf der Rückseite der Platine und wird auf der Vorderseite gelötet.
+> Beachte die Einbaurichtung! Siehe Bilder.
 
 ![Wire Connectors Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.B(1).png)
 ![Wire Connectors Done](/documentation/images/instruction_images/121_wire_connector_done.jpg)
 
-**Congratulations, you're done with soldering. Only a few steps are left.**
+**Glückwunsch, du hast das Löten geschafft. Es sind nur noch wenige Schritte nötig, bis du fertig bist.**
 
-### Place Jumpers
+### Stecke die Jumper auf
 ![Jumper Connectors Detail](/documentation/images/instruction_images/130_jumpers_detail.jpg)
-Place the four Jumper connectors (also shown in the below image)
-- JP1, JP2, JP3: on the top position
-- OFF/ON: on the left position (OFF)
+Stecke die vier Jumper wie folgt auf (ebenfalls im unteren Bild zu sehen)
+- JP1, JP2, JP3: obere Position
+- OFF/ON: linke Position (OFF)
 
 ![Jumper Connectors Done](/documentation/images/instruction_images/131_jumpers_done.jpg)
 
-### Mount and connect battery
-Wrap the battery in tape (for insulation)
+### Befestige die Batterie und schließe sie an
+Wickele die Batterie in Isolierband / Klebeband (damit sie keinen Kurschluss auf der Platine verursacht).
 ![Battery Detail](/documentation/images/instruction_images/140_battery_detail.jpg)
 
-Use the rubber band to attach the battery to the back of the board (see images).
-Connect the battery to the battery connector.
+Nutze ein Gummiband um die Batterie auf der Rückseite der Platine zu befestigen (s. Bilder).
+Schließe die Batterie an das Kabel an (Richtung beachten).
 
 ![Battery Done](/documentation/images/instruction_images/141_battery_done.jpg)
 
 
-### Attach string (optional)
+### Knote einen Faden zum Aufhängen an (optional)
 ![String Done](/documentation/images/instruction_images/150_string.jpg)
 
-### You're done! Plug the Jumper "OFF/ON" to the right position (ON) and enjoy. ✨
-Turn the two potentiometers to adjust the blinking pattern and speed.
+### Geschafft! Stecke den Jumper "OFF/ON" in die rechte Position (ON) und los geht's. ✨
+Wenn du alles richtig gemacht hast, beginnen die LEDs zu blinken.
+Mit den zwei Potentiometern kannst du das Muster und die Geschwindigkeit des Blinkens verstellen.
 
-For more information check the [Usage Instructions](/documentation/Usage%20Instructions.md).
+Für mehr Infos zu Benutzung, siehe [Usage Instructions](/documentation/Usage%20Instructions.md) (auf Englisch).
 
 
 ![Finally Done](/documentation/images/instruction_images/999_final.gif)

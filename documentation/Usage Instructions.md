@@ -21,4 +21,4 @@ Connect multiple christmas balls via the connectors on the back and set the jump
 ### Potentiometers
 
 - Left (RV1): Control Data Timer signal frequency
-- Right (RV2): Control Clock Timer signal frequency (RV1)
+- Right (RV2): Control Clock Timer signal frequency
