@@ -1,8 +1,8 @@
 # Assembly List
 
-Assemble in the listed order for best experience.
+Assemble in the listed order for the best experience.
 
-Place components on the side of the PCB where the respective marking is, solder on opposite side.
+Place components on the side of the PCB where the respective marking is, and solder on the opposite side.
 
 | Reference on PCB               | Component                       | Quantity | Notes                                               |
 | ------------------------------ | ------------------------------- | -------- | --------------------------------------------------- |
