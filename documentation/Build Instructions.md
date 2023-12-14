@@ -46,6 +46,7 @@ Place on board (orientation doesn't matter).
 ![LED Resistors Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(2).png)
 
 Solder, cut legs, repeat.
+
 ![LED Resistors Done](/documentation/images/instruction_images/021_led_resistors_done.jpg)
 
 
@@ -71,7 +72,7 @@ Bend legs, place on board, solder, cut legs, repeat.
 > Orientation is important! Little notch to the top.
 
 ![Shift register Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(5).png)
-![Shift register done](/documentation/images/instruction_images/051_shift_register_done.JPG)
+![Shift register done](/documentation/images/instruction_images/051_shift_register_done.jpg)
 
 ### Capacitors: C1, C4, C5, C6, C7
 ![Capacitors 100nF Detail](/documentation/images/instruction_images/060_capacitor_100n_detail.jpg)
