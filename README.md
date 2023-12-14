@@ -12,7 +12,7 @@ Soldering workshop kindly sponsored by VDE Bezirksverein Kassel e. V.
 - [Assembly List](/documentation/Assembly%20List.md)
 - [Usage Instructions](/documentation/Usage%20Instructions.md)
 - [Schematics](/documentation/schematics.md)
-<!-- - [Interactive BOM]() -->
+- [Interactive BOM](https://fablab-fb16.github.io/pcb_workshop_christmas_2023/)
 
 ## Features
 - Interactive: Adjustable blinking pattern and speed via two potentiometers
