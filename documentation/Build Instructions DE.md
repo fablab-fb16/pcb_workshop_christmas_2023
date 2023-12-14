@@ -6,12 +6,13 @@ English Version: [Build Instructions](/documentation/Build%20Instructions.md)
 
 ## Allgemeine Infos
 - Wenn du noch nie gelötet hast, schau dir die Anleitung an (auf Englisch, mit Bildern): [How to solder](/documentation/How%20to%20Solder.md)
-- Alle Komponenten werden auf der Seite der Platine plaziert, auf der die zugehörige Markierung des Bauteils ist. Gelötet wird immer auf der anderen Seite der Platine.
-- Alle Bauteile haben eine Bezeichnung welche in der Anleitung genannt wird, z.B. "R1" oder "D9". Diese Bezeichnung ist auch auf der Platine aufgedruckt. Dort muss das jeweilige Bauteil platziert werden.
-- Manche Komponenten haben eine Orientierung -> Es ist wichtig, dass sie richtigherum eingebaut werden. Dies ist in der Anleitung in rot mit "Caution" gekennzeichnet. Einbaurichtung vor dem Löten nochmal prüfen. 😉
+- Alle Komponenten werden auf der Seite der Platine platziert, auf der die zugehörige Markierung des Bauteils ist. Gelötet wird immer auf der jeweils anderen Seite der Platine.
+- Alle Bauteile haben eine Bezeichnung, welche in der Anleitung genannt wird, z.B. "R1" oder "D9". Diese Bezeichnung ist auch auf der Platine aufgedruckt. Dort muss das jeweilige Bauteil platziert werden.
+- Manche Bauteile haben eine Orientierung -> Es ist wichtig, dass sie richtigherum eingebaut werden. Dies ist in der Anleitung in rot mit "Caution" gekennzeichnet. Einbaurichtung vor dem Löten nochmal prüfen. 
+- Falls du Fragen hast: Am besten **vor** dem Löten fragen. 😉
 - Have fun. 👩‍🏭👨‍🏭
 
-## Bau die Weihnachtsbaumkugel
+## Anleitung
 ### Übersicht
 ![Overview](/documentation/images/instruction_images/000_overview.jpg)
 ![Front-Back](/documentation/images/instruction_images/001_front_back.jpg)
@@ -33,11 +34,11 @@ Stecke die Diode bis ganz auf die Platine. Drehe die Platine um und löte die be
 ![Diode Board Flipped](/documentation/images/instruction_images/012_diode_board_flipped.jpg)
 ![Diode Soldered](/documentation/images/instruction_images/013_diode_soldered.jpg)
 
-Schneide die Beine **oberhalb** der Lötstellen ab (nicht die Lötstelle abschneiden).
+Schneide die Beine **oberhalb** der Lötstellen ab (nicht die Lötstelle selbst abschneiden).
 ![Diode Legs cut](/documentation/images/instruction_images/014_diode_legs_cut.jpg)
 ![Diode Done](/documentation/images/instruction_images/015_diode_done.jpg)
 
-Fertig mit dem ersten Bauteil.
+Erstes Bauteil geschafft.
 
 ### Widerstände: R1, R2, R3, R4, R5, R6, R7, R8
 ![LED Resistors 8x 1.3k](/documentation/images/instruction_images/020_led_resistors.jpg)
@@ -65,6 +66,8 @@ Beine biegen, auf Platine stecken, löten, Beine abschneiden, wiederholen.
 ![Timers Detail](/documentation/images/instruction_images/040_timer_detail.jpg)
 > [!Caution]
 > Beachte die Einbaurichtung! Kleine Einkerbung nach oben.
+
+Aufstecken, alle Beinchen löten. Verfahre mit allen weiteren Bauteilen so.
 
 ![Timers Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(4).png)
 ![Timers done](/documentation/images/instruction_images/041_timer_done.jpg)
@@ -108,7 +111,7 @@ Mische die verschiedenen Farben, wie du magst.
 
 ### Jumper: JP1, JP2, JP3, ON/OFF
 ![Jumpers Detail](/documentation/images/instruction_images/090_jumpers_detail.jpg)
-Schneide sie mit dem Seitenschneider in 4 Stücke á 3 Pins (s. Bild).
+Schneide sie mit dem Seitenschneider in 4 Stücke á 3 Pins (s. Bild). Bring den Rest gerne zur Bauteil-Ausgabe zurück.
 
 ![Jumpers Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(8).png)
 ![Jumpers Done](/documentation/images/instruction_images/091_jumpers_done.jpg)
@@ -116,7 +119,7 @@ Schneide sie mit dem Seitenschneider in 4 Stücke á 3 Pins (s. Bild).
 
 ### Potentiometer: RV1, RV2
 ![Potentiometers Detail](/documentation/images/instruction_images/100_poti_detail.jpg)
-Die Potentiometer "klipsen" auf die Platine - das braucht etwas Kraft. Löte dann alle Kontakte, auch die großen.
+Die Potentiometer "klipsen" auf die Platine - das braucht etwas Kraft (aber keine Gewalt, falls es nicht geht frag uns nach Hilfe). Löte dann alle Kontakte, auch die großen.
 
 ![Potentiometers Board Drawing](/documentation/images/board_drawing_with_marked_components/christmas.F(10).png)
 ![Potentiometers Done](/documentation/images/instruction_images/101_poti_done.jpg)
