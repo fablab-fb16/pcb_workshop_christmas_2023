@@ -1,4 +1,4 @@
-# Blinky Weihnachtsbaumkugel – Lötset
+# Blinkende Weihnachtsbaumkugel – Lötset
 Diese Readme ist auf Deutsch. Für Englisch siehe [README.md](/README.md).
 
 ![PCB-Vorderseite](/documentation/images/front_small_low_res.png)
