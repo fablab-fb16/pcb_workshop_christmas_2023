@@ -10,7 +10,7 @@ Soldering workshop kindly sponsored by VDE Bezirksverein Kassel e. V.
 
 - [Detailed Build Instructions (EN)](/documentation/Build%20Instructions.md) / [Detaillierte Bauanleitung (DE)](/documentation/Build%20Instructions%20DE.md)
 - [Assembly List](/documentation/Assembly%20List.md)
-- [Usage Instructions](/documentation/Usage%20Instructions.md)
+- [Usage Instructions (EN)](/documentation/Usage%20Instructions.md) / [Gebrauchsanleitung](/documentation/Usage%20Instructions%20DE.md)
 - [Schematics](/documentation/schematics.md)
 - [Interactive BOM](https://fablab-fb16.github.io/pcb_workshop_christmas_2023/)
 
