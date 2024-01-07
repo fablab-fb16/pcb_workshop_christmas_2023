@@ -1,4 +1,5 @@
 # Blinky Christmas Tree Ball - Soldering Kit
+This Readme is in English. For German, see [README DE.md](/README%20DE.md).
 
 ![PCB Front Side](/documentation/images/front_small_low_res.png)
 
