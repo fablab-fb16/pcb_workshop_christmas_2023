@@ -170,7 +170,7 @@ Schließe die Batterie an das Kabel an (Richtung beachten).
 Wenn du alles richtig gemacht hast, beginnen die LEDs zu blinken.
 Mit den zwei Potentiometern kannst du das Muster und die Geschwindigkeit des Blinkens verstellen.
 
-Für mehr Infos zu Benutzung, siehe [Usage Instructions](/documentation/Usage%20Instructions.md) (auf Englisch).
+Für mehr Infos zu Benutzung, siehe [Gebrauchsanweisung](/documentation/Usage%20Instructions%20DE.md).
 
 
 ![Finally Done](/documentation/images/instruction_images/999_final.gif)

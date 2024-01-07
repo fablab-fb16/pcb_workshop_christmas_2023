@@ -4,7 +4,7 @@ Two timers generate a square-wave signal (freqency independatly variable by pote
 
 These two signals are used on data and clock input of shift register to create output patterns. Each output of the shift register is connected to one LED.
 
-The Jumpers are used to select signal source and output source for daisy-chaining multiple boards. See [Usage Instructions](/documentation/Usage%20Instructions.md) for more info on this.
+The Jumpers are used to select signal source and output source for daisy-chaining multiple boards. See [Usage Instructions](/documentation/Usage%20Instructions.md) ([German](/documentation/Usage%20Instructions%20DE.md)) for more info on this.
 
 ## Main Circuit
 ![](/documentation/schematics/root_schematics.png)
